@@ -1,0 +1,15 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Simple Add
+    link(rel='stylesheet', href='/style.css')
+  body
+    h2 Simple Add
+    input#firstnumber.form-control(type='number', placeholder='0')
+    input#secondnumber.form-control(type='number', placeholder='0')
+    input#total.form-control(type='number', placeholder='0', readonly='')
+    button#add(type='button') add
+    //- p © 2015 Amah Ajavon         
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
+    script(src='/main.js')
